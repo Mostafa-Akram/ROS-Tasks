@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+
+touch exam1.py exam2.py exam3.py
+chmod 751 exam1.py
+/usr/bin/bash
