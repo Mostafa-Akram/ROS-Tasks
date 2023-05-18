@@ -1,6 +1,6 @@
 # bash scripts Tasks
 
-    this repo for ROS tasks in Robotics Corner ROS Course by: 
+    this repo for bash-script tasks in Robotics Corner ROS Course by: 
 ## **Eng\khaled** **Gabr**
 
 
