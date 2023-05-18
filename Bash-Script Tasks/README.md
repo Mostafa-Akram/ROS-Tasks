@@ -1,16 +1,11 @@
+# bash scripts Tasks
 
-# ROS-Tasks
     this repo for ROS tasks in Robotics Corner ROS Course by: 
 ## **Eng\khaled** **Gabr**
 
 
 ===================================================================================
 
-
-
-## ROS-Course Tasks
-
-#### bash scripts Tasks
 ##### Task 0
     Inside your workspace (~/catkin_ws/src/), create a new folder named linux_exam.
 ##### Task 1
