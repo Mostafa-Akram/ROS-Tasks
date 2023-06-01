@@ -1,38 +1,23 @@
-# Coditional problem
+# function problem
 
-## For each integer n in the inclusive interval [a,b]
-
-If 1<=n>=9, then print the English representation of it in lowercase. That is "one" for 1, "two" for 2, and so on.
-Else if  **n>9** and it is an even number, then print "even".
-Else if  **n>9** and it is an odd number, then print "odd".
+## Write a function int max_of_four(int a, int b, int c, int d) which returns the maximum of the four arguments it receives
 
 # Sample Input 0
 
-    8
-    11 
+   Input will contain four integers a,b,c,d  , one per line.
 
 # Sample Output 0
 
-    eight
-    nine
-    even
-    odd
+    Return the greatest of the four integers.
+    PS: I/O will be automatically handled.
 
-# Sample Input 0
+# Sample Input 1
 
-    7
-    17 
+    3
+    4
+    6
+    5
 
-# Sample Output 0
+# Sample Output 1
 
-    seven
-    eight
-    nine
-    even
-    odd
-    even
-    odd
-    even
-    odd
-    even
-    odd
+    6

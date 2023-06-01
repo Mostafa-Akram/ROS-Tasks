@@ -1,4 +1,4 @@
-# Coditional problem
+# loops problem
 
 ## For each integer n in the inclusive interval [a,b]
 
@@ -18,12 +18,12 @@ Else if  **n>9** and it is an odd number, then print "odd".
     even
     odd
 
-# Sample Input 0
+# Sample Input 1
 
     7
     17 
 
-# Sample Output 0
+# Sample Output 1
 
     seven
     eight

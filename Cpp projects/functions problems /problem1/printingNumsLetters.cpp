@@ -2,26 +2,34 @@
 
 using namespace std;
 
+int max(int a,int b, int c, int d);
+
 int main(){
-    int x,y,i;
+    int x,y,z,f,m;
 
-    cin>>x>>y;
-    string nums[11] = { "one","two","three", "four","five","six","seven","eight","nine","even","odd"};
+    cin>>x>>y>>z>>f;
 
+    m= max(x,y,z,f);
 
-    for(i=x ; i<=y ; i++)
-    {
-        if(i>9 && i%2==1)
-        {
-            cout<<nums[10]<<endl;
-        }else if(i>9 && i%2==0)
-        {
-            cout<<nums[9]<<endl;
-        }else
-        {
-            cout<<nums[i-1]<<endl;
-        }
-    }
+    cout<<m<<endl;
+
+   
  
     return 0;
+}
+
+int max(int a,int b, int c, int d)
+{
+    if(a>b && a>c && a>d)
+    {
+        return a;
+    }else if(b>a && b>c && b>d)
+    {
+        return b;
+    }else if(c>a && c>b && c>d)
+    {
+        return c;
+    }else{
+        return d;
+    }
 }
